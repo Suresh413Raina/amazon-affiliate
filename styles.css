@@ -7,6 +7,10 @@ body, h1, h2, p {
 /* Basic styling */
 body {
   font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 nav {
@@ -28,3 +32,39 @@ nav a {
   padding: 20px;
   border: 1px solid #ccc;
 }
+  
+.contents {
+	max-width: 800px;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-align: center;
+  }
+
+.color-button {
+    background-color: #3498db;
+    color: white;
+	margin: 20px auto;
+    padding: 30px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	text-align: center;
+  }
+.bodyform {
+	margin: 40px auto;
+	padding: 40px;
+	background: linear-gradient(to right, #ffd700 0%, #333333 40%);
+    border-radius: 100px;
+    color: white;
+    text-align: center;
+    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);*/
+  }
+
+.data {
+	background-color: #35424a;
+	color: white;
+	padding: 10px;
+	text-align: center;
+  }	
+
